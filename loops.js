@@ -10,14 +10,4 @@ function forLoop(array) {
   return array
 }
 
-let number = 100;
 
-
-
-function mayBeTrue() {
-  return Math.random() >= 0.5
-}
-
-do {
-  console.log('bebo')
-} while (mayBeTrue());
