@@ -20,7 +20,7 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
-    console.log(array.pop())
+    array.pop()
   } while(array.length !== 0)
   
   return array
